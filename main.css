@@ -1,0 +1,33 @@
+html { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+header {
+  background-color:darkblue;
+  height: 70px;
+  width: 100px;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+button  {
+  position: relative;
+  float: right;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    font-size: 20px;
+    list-style: none;
+    margin: 0 15px;
+    background-color: cyan;
+}
